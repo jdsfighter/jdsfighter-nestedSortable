@@ -4,9 +4,9 @@
  * https://github.com/ilikenwf/nestedSortable
  *
  * Depends on:
- *	 jquery.ui.sortable.js 1.10+
+ *	 jquery.ui.sortable.js 1.12+
  *
- * Copyright (c) 2010-2016 Manuele J Sarfatti and contributors
+ * Copyright (c) 2010-2017 Manuele J Sarfatti and contributors
  * Licensed under the MIT License
  * http://www.opensource.org/licenses/mit-license.php
  */
@@ -18,7 +18,7 @@
 		// AMD. Register as an anonymous module.
 		define([
 			"jquery",
-			"jquery-ui/sortable"
+			"jquery-ui/ui/widgets/sortable"
 		], factory );
 	} else {
 
